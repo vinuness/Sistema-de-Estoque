@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.content{
+    display: grid;
+    grid-template-areas: 
+    "sidebar navbar navbar"
+    "sidebar main main"
+    "footer footer footer";
+    grid-template-columns: 2.5% 97.5%;
+    grid-template-rows: 10% 87% 3%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1500px;
+    height: 500px;
+    color: white;
+    border-radius: 15px;
+}
+
+.main{
+    grid-area: main;
+    background-color: #373739;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: #020202;
+    position: relative; 
+    z-index: 20;
+}
+
+.navbar h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0;
+    color: antiquewhite;
+}
+
+
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    background-color: #19191a;
+    z-index: 20;
+    transition: 0.3s;
+}
+
+.sidebar:hover{
+    width: calc(100% + 100%);
+}
+
+.sidebar:hover ul button{
+    opacity: 1;
+}
+
+.sidebar ul button{
+    transition: 0.3s;
+    list-style-type: none;
+    opacity: 0;
+}
+
+.footer{
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    background-color: #020202;
+
+}
+
+.footer p{
+    margin: 5%;
+}
+
+.grafico Chart{
+    position: relative;
+    z-index: 20;
+    width: 1500px;
+    height: 700px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}

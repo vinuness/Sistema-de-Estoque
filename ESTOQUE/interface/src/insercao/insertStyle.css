@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.popup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.caixa{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#fechar{
+    color: blue;
+    transition: 0.3s;
+}
+
+#fechar:hover{
+    color: rgb(50, 50, 209);
+}
+
+.btn{
+    background-color: blue;
+    transition: 0.3s;
+    color: white;
+    margin: 2%;
+}
+
+.btn:hover{
+    background-color: rgb(50, 50, 209);
+    color: white;
+}
+
+#mercadoria, #quantidade, #preco, #categoria, #cliente{
+    border-radius: 5px;
+    margin: 2%;
+}
