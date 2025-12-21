@@ -1,3 +1,7 @@
+## Sobre o projeto
+
+        Este projeto foi desenvolvido com foco em aprendizado prático, visando a aplicação de conceitos e tecnologias amplamente utilizadas no mercado de desenvolvimento de software.
+        
 FUNCIONALIDADES DO SISTEMA
 
         - Cadastro de produtos com informações como nome, categoria, preço e quantidade;
