@@ -24,7 +24,8 @@ Funcionalidades do sistema
             EMAIL      VARCHAR2(100)    NOT NULL UNIQUE,
             SENHA      VARCHAR2(100)    NOT NULL
         );
-
+        
+### Produto
         CREATE TABLE ITENS (
             CODIGO      NUMBER(7,0)      PRIMARY KEY,
             MERCADORIA  VARCHAR2(100),
