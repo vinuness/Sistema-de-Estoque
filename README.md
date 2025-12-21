@@ -25,3 +25,6 @@ Criação da tabela de produtos
             PRECO NUMBER(10,2),
             CATEGORIA VARCHAR2(32)
         );
+Observações:
+
+        Projeto paralizado, com outras funcionalidades ainda em desenvolvimento.
