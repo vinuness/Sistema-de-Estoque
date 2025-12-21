@@ -17,7 +17,7 @@ Funcionalidades do sistema
         - Interface simples e intuitiva para facilitar o gerenciamento do estoque;
 
 ## Criação das tabelas
-
+### Usuario
         CREATE TABLE USUARIO (
             MATRICULA  NUMBER(7,0)      PRIMARY KEY,
             NOME       VARCHAR2(100),
