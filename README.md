@@ -16,15 +16,25 @@ Funcionalidades do sistema
         
         - Interface simples e intuitiva para facilitar o gerenciamento do estoque;
 
-Criação da tabela de produtos
+# Criação das tabelas
+
+        CREATE TABLE USUARIO (
+            MATRICULA  NUMBER(7,0)      PRIMARY KEY,
+            NOME       VARCHAR2(100),
+            EMAIL      VARCHAR2(100)    NOT NULL UNIQUE,
+            SENHA      VARCHAR2(100)    NOT NULL
+        );
 
         CREATE TABLE ITENS (
-            CODIGO NUMBER(7,0) PRIMARY KEY,
-            MERCADORIA VARCHAR2(100),
-            QUANTIDADE NUMBER,
-            PRECO NUMBER(10,2),
-            CATEGORIA VARCHAR2(32)
+            CODIGO      NUMBER(7,0)      PRIMARY KEY,
+            MERCADORIA  VARCHAR2(100),
+            QUANTIDADE  NUMBER,
+            PRECO       NUMBER(10,2),
+            CATEGORIA   VARCHAR2(32),
+            MATRICULA   NUMBER(7,0)      NOT NULL
         );
+
+
 Observações:
 
         Projeto paralizado, com outras funcionalidades ainda em desenvolvimento.
