@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido com foco em aprendizado prático, visando a aplicação de conceitos e tecnologias amplamente utilizadas no mercado de desenvolvimento de software.
         
-FUNCIONALIDADES DO SISTEMA
+Funcionalidades do sistema
 
         - Cadastro de produtos com informações como nome, categoria, preço e quantidade;
         
@@ -16,7 +16,7 @@ FUNCIONALIDADES DO SISTEMA
         
         - Interface simples e intuitiva para facilitar o gerenciamento do estoque;
 
-QUERY PARA CRIAÇÃO DA TABELA DE PRODUTOS
+Criação da tabela de produtos
 
         CREATE TABLE ITENS (
             CODIGO NUMBER(7,0) PRIMARY KEY,
