@@ -1,6 +1,6 @@
 ## Sobre o projeto
 
-        Este projeto foi desenvolvido com foco em aprendizado prático, visando a aplicação de conceitos e tecnologias amplamente utilizadas no mercado de desenvolvimento de software.
+Este projeto foi desenvolvido com foco em aprendizado prático, visando a aplicação de conceitos e tecnologias amplamente utilizadas no mercado de desenvolvimento de software.
         
 FUNCIONALIDADES DO SISTEMA
 
