@@ -1,4 +1,4 @@
-## Sobre o projeto
+# Sobre o projeto
 
 Este projeto foi desenvolvido com foco em aprendizado prático, visando a aplicação de conceitos e tecnologias amplamente utilizadas no mercado de desenvolvimento de software.
         
@@ -16,7 +16,7 @@ Funcionalidades do sistema
         
         - Interface simples e intuitiva para facilitar o gerenciamento do estoque;
 
-# Criação das tabelas
+## Criação das tabelas
 
         CREATE TABLE USUARIO (
             MATRICULA  NUMBER(7,0)      PRIMARY KEY,
