@@ -34,7 +34,9 @@ Funcionalidades do sistema
             CATEGORIA   VARCHAR2(32),
             MATRICULA   NUMBER(7,0)      NOT NULL
         );
+Instalação de dependencias com React
 
+        npm install
 
 Observações:
 
