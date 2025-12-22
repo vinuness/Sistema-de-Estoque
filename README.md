@@ -38,4 +38,4 @@ Funcionalidades do sistema
 
 Observações:
 
-        Projeto paralizado, com outras funcionalidades ainda em desenvolvimento.
+        Este projeto encontra-se em desenvolvimento contínuo. Algumas funcionalidades, como o gerenciamento de usuários, já estão implementadas na API e serão integradas à interface em etapas futuras.
