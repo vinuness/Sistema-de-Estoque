@@ -41,3 +41,10 @@ Instalação de dependencias com React
 Observações:
 
         Este projeto encontra-se em desenvolvimento contínuo. Algumas funcionalidades, como o gerenciamento de usuários, já estão implementadas na API e serão integradas à interface em etapas futuras.
+
+## 🎬 Demonstração do Sistema de Estoque
+
+Clique na imagem abaixo para assistir à demo do sistema funcionando 👇
+
+[![Assista ao vídeo](https://img.youtube.com/vi/sj2NBaHwakA/0.jpg)](https://youtu.be/sj2NBaHwakA)
+
