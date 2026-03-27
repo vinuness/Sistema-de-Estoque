@@ -32,7 +32,7 @@ Funcionalidades do sistema
             QUANTIDADE  NUMBER,
             PRECO       NUMBER(10,2),
             CATEGORIA   VARCHAR2(32),
-            MATRICULA   NUMBER(7,0)      NOT NULL
+            MATRICULA   NUMBER(7,0)      NOT NULL,
             FOREIGN KEY (MATRICULA) REFERENCES USUARIO(MATRICULA)
         );
 Instalação de dependencias com React
