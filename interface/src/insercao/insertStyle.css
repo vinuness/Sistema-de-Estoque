@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: white;
+    background: linear-gradient(180deg, rgba(46, 51, 58, 0.65) 0%, rgb(49 58 70 / 58%) 50%, rgb(57 68 82 / 61%) 100%);
+    box-shadow: 0 8px 32px 0 #39445266;
     color: black;
     padding: 20px;
     border-radius: 8px;
@@ -24,12 +25,12 @@
 }
 
 #fechar{
-    color: blue;
+    color: #313A46;
     transition: 0.3s;
 }
 
 #fechar:hover{
-    color: rgb(50, 50, 209);
+    color: rgb(87, 87, 255);
 }
 
 
@@ -46,7 +47,11 @@
     color: white;
 }
 
-#mercadoria, #quantidade, #preco, #categoria, #cliente{
+#mercadoria, #quantidade, #preco, #categoria, #cliente, #codigo{
     border-radius: 5px;
     margin: 2%;
+}
+
+h3{
+    color: white;
 }
