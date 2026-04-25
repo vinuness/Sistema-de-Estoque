@@ -1,0 +1,23 @@
+#retirar{
+    background-color: red;
+    transition: 0.3s;
+    color: white;
+    margin: 2%;
+}
+
+#retirar:hover{
+    background-color: rgb(209, 50, 50);
+    color: white;
+}
+
+#incluir{
+    background-color: green;
+    transition: 0.3s;
+    color: white;
+    margin: 2%;
+}
+
+#incluir:hover{
+    background-color: rgb(50, 209, 50);
+    color: white;
+}
