@@ -47,4 +47,4 @@ Observações:
 
 Clique na imagem abaixo para assistir à demo do sistema funcionando 👇
 
-[![Assista ao vídeo](https://img.youtube.com/vi/sj2NBaHwakA/0.jpg)](https://youtu.be/sj2NBaHwakA)
+[![Assista ao vídeo](https://img.youtube.com/vi/sj2NBaHwakA/0.jpg)](https://youtu.be/BleQOEchgEw)
